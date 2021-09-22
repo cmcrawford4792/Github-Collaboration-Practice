@@ -1,0 +1,37 @@
+danlo@DESKTOP-AIVCUFK MINGW64 /
+$ cd /c/Users/danlo/OneDrive/Documents/Github/
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/Github
+$ git clone https://github.com/cmcrawford4792/Github-Collaboration-Practice.git
+Cloning into 'Github-Collaboration-Practice'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/Github
+$ cd Github-Collaboration-Practice/
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/Github/Github-Collaboration-Practice (main)
+$ git pull
+Already up to date.
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/Github/Github-Collaboration-Practice (main)
+$ git checkout -b daniel_branch
+Switched to a new branch 'daniel_branch'
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/Github/Github-Collaboration-Practice (daniel_branch)
+$ vim README.md
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/Github/Github-Collaboration-Practice (daniel_branch)
+$ touch Daniel_Text.txt
+
+danlo@DESKTOP-AIVCUFK MINGW64 ~/OneDrive/Documents/Github/Github-Collaboration-Practice (daniel_branch)
+vim Daniel_Text.txt
+
+git add Daniel_Text.txt
+
+git commit -m"I have made changes."
+
+git push
