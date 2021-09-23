@@ -1,2 +1,5 @@
 Daniel Lobo, Sociology PhD student 
-keywords: education, race & class, social theory, causal inference 
+keywords: education, race & class, social theory, causal inference
+
+Christopher Crawford, Psychology PhD student
+keywords: affective science, psychopathology, methodology
