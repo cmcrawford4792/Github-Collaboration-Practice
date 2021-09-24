@@ -1,0 +1,44 @@
+mjkeh@MinJeeKeh MINGW64 ~
+$ pwd
+/c/Users/mjkeh
+
+mjkeh@MinJeeKeh MINGW64 ~
+$ cd "/c/Users/mjkeh/CSS_project"
+
+mjkeh@MinJeeKeh MINGW64 ~/CSS_project
+$ git clone https://github.com/cmcrawford4792/Github-Collaboration-Practice.git
+Cloning into 'Github-Collaboration-Practice'...
+remote: Enumerating objects: 21, done.
+remote: Counting objects: 100% (21/21), done.
+remote: Compressing objects: 100% (18/18), done.
+remote: Total 21 (delta 1), reused 11 (delta 0), pack-reused 0
+Receiving objects: 100% (21/21), 5.97 KiB | 556.00 KiB/s, done.
+Resolving deltas: 100% (1/1), done.
+
+mjkeh@MinJeeKeh MINGW64 ~/CSS_project
+$ cd Github-Collaboration-Practice/
+
+mjkeh@MinJeeKeh MINGW64 ~/CSS_project/Github-Collaboration-Practice (main)
+$ git checkout -b MinJee_branch
+Switched to a new branch 'MinJee_branch'
+
+mjkeh@MinJeeKeh MINGW64 ~/CSS_project/Github-Collaboration-Practice (MinJee_branch)
+$ ls
+Daniel_Text.txt  Group_members.txt  README.md
+
+mjkeh@MinJeeKeh MINGW64 ~/CSS_project/Github-Collaboration-Practice (MinJee_branch)
+$ vim Group_members.txt
+
+mjkeh@MinJeeKeh MINGW64 ~/CSS_project/Github-Collaboration-Practice (MinJee_branch)
+git add MinJee_Text.txt
+
+git commit -m "adding MinJee_Text.txt"
+
+git push
+
+git add Group_members.txt
+
+git commit -m "made changes to Group_members"
+
+git push 
+
